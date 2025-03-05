@@ -1,0 +1,53 @@
+from turtle import *
+# დავალება:
+# დახატე სახლი turtle-ის გამოყენებით! სახლი უნდა შეიცავდეს:
+# ✅ კვადრატის ფორმის სახლს (ძირითადი კედლები)
+# ✅ სამკუთხა სახურავს
+# ✅ კარებს სახლის ცენტრში
+width(3)
+penup()
+right(180)
+forward(100)
+color('black')
+speed(5)
+left(90)
+forward(400)
+pendown()
+left(180)
+forward(250)
+right(90)
+forward(250)
+right(90)
+forward(250)
+right(90)
+forward(250)
+right(90)
+forward(250)
+right(45)
+forward(177)
+penup()
+back(177)
+right(45)
+forward(250)
+pendown()
+left(90)
+left(45)
+forward(177)
+penup()
+back(177)
+left(135)
+forward(250)
+right(90)
+forward(100)
+pendown()
+right(90)
+forward(150)
+left(90)
+forward(50)
+left(90)
+forward(150)
+
+
+
+
+exitonclick()
